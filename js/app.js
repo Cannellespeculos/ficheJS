@@ -157,3 +157,19 @@ do {
    id++;
 } while(id > 100);
 // ca montre 0 carle do n'ai pas dans la boucle donc ca ne le fait qu'une fois
+
+let ages = [14,14,14,15,15,15,16,16,16,16,16,17];
+console.log(ages);
+console.log(ages[0]);
+console.log(ages[1]);
+console.log(ages[2]);
+console.log(ages[3]);
+let longueur = ages.length;
+console.log(longueur)
+console.log(ages[11])
+
+let i = 0;
+while (i < ages.length){
+    console.log(ages[i])
+    i++
+}
