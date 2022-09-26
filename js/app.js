@@ -142,3 +142,18 @@ while (v <= 100){
 
 }
 console.log(counter)
+
+let key = 0;
+while(key > 100){
+   console.log(key);
+   key++;
+}
+// ca ne fonctionne pas car la boucle fonctionne tant que key est suppérieur a 100 mais il est inférieur
+// a 100 donc la boucle ne fonctionnera jamais car la valeur augmente dans la boucle
+
+let id = 0;
+do {
+   console.log(id);
+   id++;
+} while(id > 100);
+// ca montre 0 carle do n'ai pas dans la boucle donc ca ne le fait qu'une fois
