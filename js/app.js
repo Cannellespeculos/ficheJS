@@ -114,3 +114,31 @@ let resultat = isValid(age)
 console.log(resultat)
 let resultatinverse = !resultat;
 console.log(resultatinverse)
+
+// console.log(0);
+// console.log(1);
+// console.log(2);
+// console.log(3);
+// console.log(4);
+
+let index = 0;
+// while (index <=4){
+//     console.log(index)
+//     index++
+// }
+
+// while (index <=99){
+//     console.log(index)
+//     index+=3
+// }
+
+let v = 0;
+let counter = ""
+while (v <= 100){
+    if (v<=10 && v>=1 || v<=100 && v>=90){
+        counter += v;
+    }
+    v++
+
+}
+console.log(counter)
