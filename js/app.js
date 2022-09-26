@@ -66,28 +66,51 @@ function hello(name, city="Lyon"){
 hello("Cannelle","Villeurbanne")
 hello("Cannelle")
 
-function add(a , b){
-    console.log(a + b)
-    return(a + b)
-}
+// function add(a , b){
+//     console.log(a + b)
+//     return(a + b)
+// }
 
-add(25 ,65)
+// add(25 ,65)
 
-function div(a, b){
-    console.log(a / b)
-    return(a / b)
-}
+// function div(a, b){
+//     console.log(a / b)
+//     return(a / b)
+// }
 
-div(4585, 65)
+// div(4585, 65)
 
-function positive(num){
-    if (num >= 0){
-        console.log("VRAI")
-        return("VRAI")
-    }else {
-        console.log("FAUX")
-        return("FAUX")
+
+// }
+// function positive(num){
+//     if (num >= 0){
+//         console.log("VRAI")
+//         return("VRAI")
+//     }else {
+//         console.log("FAUX")
+//         return("FAUX")
+//     }
+// positive(-9)
+
+// age = parseInt(age)
+// let verifier_nombre= isNaN(age)
+// console.log(age)
+// console.log(verifier_nombre)
+
+function isValid(userInput){
+    let input = parseInt(userInput)
+    if (isNaN(input) ){
+        console.log("faux")
+        return input
+    } else if (userInput>12 && userInput<90) {
+        console.log("vrai");
+        return input
     }
 }
 
-positive(-9)
+// isValid("54")
+
+let resultat = isValid(age)
+console.log(resultat)
+let resultatinverse = !resultat;
+console.log(resultatinverse)
