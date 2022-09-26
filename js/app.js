@@ -44,3 +44,50 @@ if(age>=21){
     console.log("vous etes mineur")
     
 }
+// les opérateurs booléans son &&(et) ||(ou)
+
+function direBonjour(){
+    console.log("Bonjour")
+}
+
+direBonjour()
+
+function direBonjourAkelkaine(name){
+    console.log("Bonjour "+ name)
+}
+
+direBonjourAkelkaine("Cannelle")
+
+function hello(name, city="Lyon"){
+    console.log("Bonjour " + name)
+    console.log("Vous "+"habitez "+city )
+}
+
+hello("Cannelle","Villeurbanne")
+hello("Cannelle")
+
+function add(a , b){
+    console.log(a + b)
+    return(a + b)
+}
+
+add(25 ,65)
+
+function div(a, b){
+    console.log(a / b)
+    return(a / b)
+}
+
+div(4585, 65)
+
+function positive(num){
+    if (num >= 0){
+        console.log("VRAI")
+        return("VRAI")
+    }else {
+        console.log("FAUX")
+        return("FAUX")
+    }
+}
+
+positive(-9)
