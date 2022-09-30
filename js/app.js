@@ -173,3 +173,99 @@ while (i < ages.length){
     console.log(ages[i])
     i++
 }
+
+let tableau = [5,2,6,8,9,2]
+tableau.indexOf(8) 
+// ça va faire 3
+tableau.indexOf(7)
+// ça va faire -1 car si l'argument n'est pas dans le tableau donc la
+// machine met -1
+tableau.indexOf(2 , 2)
+// ça va faire 5 car le deuxième chiffre 
+// va determiner ou commence la fonction et que la machine prend la
+// première valeur donné
+
+// function Array(tableau , numéro){
+//     if (tableau.indexOf(numéro) === -1 ){
+//         tableau.push(numéro);
+//         console.log("le nouveau tableau ")
+//     }
+
+
+// }
+
+
+
+let t = [3,12,50,20];
+let t2 = []
+let idex = t.length
+
+while (idex > 0 ){
+    t2.push(t.pop());
+    idex--
+
+}
+
+console.log(t)
+console.log(t2)
+
+const abc = ["a","b","c"]
+const def = ["d","e","f"]
+
+console.log(abc.concat(def));
+
+console.log(abc.reverse())
+
+// function reverse(arg){
+
+// }
+
+// function include(arr ,item ){
+//     let result = false;
+//     let index = 0; 
+//     while (index < arr.length ){}
+//         if (arr [index] === item){
+//          result = true
+//         }
+//         index++
+//         return result;
+//     }
+
+// include([1,2,3], 2)
+
+// function positive(arr){
+//     let result = false;
+//     let index = 0
+//     while (index < arr.length){
+//         if (arr / 2){
+//             result = true
+//         }
+//         index++
+//         return result;
+//     }
+// }
+
+// positive([2,5,4,9,8,7,10,25])
+
+let ta = [1 ,2 ,3];
+for(let y =0 ; y < ta.length; y++ ){
+    console.log(ta[y])
+}
+
+function transform(w , arg){
+    let tmp = [];
+    for(let i = 0 ; i < w.length ; i++){
+        tmp.push(w[i] + arg)
+    }
+    return tmp;
+    console.log()
+}
+
+console.log(transform(ta , 2))
+
+let negatif = [ -50, 56 ,-52 , 0, -0, 9]
+function moins(arg){
+    return arg <0;
+}
+console.log(negatif.filter(moins))
+
